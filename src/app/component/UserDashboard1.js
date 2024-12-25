@@ -35,9 +35,9 @@ const UserDashboard1 = () => {
 
   // Staking contract address and ABI
   // console.log("this is endtime from UseSTate", Number(endTime));
-  const contractAddress = "0xc94cDB70F1ec91437C5d22340d5206B4B8928482"; // Replace with actual staking contract address
+  const contractAddress = "0x1035263f07F2853F15174f78f59c05230e5BbDD2"; // Replace with actual staking contract address
 
-  const preSaleContractAddress = "0xAb1e13E8A7a7d95EE8aDDC1f74aAc3CF6CccA597";
+  const preSaleContractAddress = "0xFe5993062573122d9Ff4073E83fA22fB23DDE27D";
 
   const formatIndianNumber = (num) => {
     if (!num) return "";
@@ -486,7 +486,7 @@ const UserDashboard1 = () => {
 
       // Provide the actual ABI here
       const contract1 = new ethers.Contract(
-        "0xAb1e13E8A7a7d95EE8aDDC1f74aAc3CF6CccA597",
+        "0xFe5993062573122d9Ff4073E83fA22fB23DDE27D",
         [
           {
             inputs: [
@@ -758,7 +758,7 @@ const UserDashboard1 = () => {
       setPurchaseArray(purchases);
 
       const contract = new ethers.Contract(
-        "0xc94cDB70F1ec91437C5d22340d5206B4B8928482",
+        "0x1035263f07F2853F15174f78f59c05230e5BbDD2",
         stakingABI,
         signer
       );
