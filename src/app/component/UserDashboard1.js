@@ -10,8 +10,8 @@ import Image from "next/image";
 
 // const usdtAddress = "0x2dac9264BCb152c49fBe12cA45d84621fF91e8AA"; // Replace with Contract 1 address
 // const gentopAddress = "0x67Cd96b18747333f01668976bF4dF6d3f4a517c3"; // Replace with Contract 2 address
-const stakingContractAddress = "0xc94cDB70F1ec91437C5d22340d5206B4B8928482"; // Replace with Contract 3 address
-const preSaleContractAddress = "0xAb1e13E8A7a7d95EE8aDDC1f74aAc3CF6CccA597";
+const stakingContractAddress = "0x1035263f07F2853F15174f78f59c05230e5BbDD2"; // Replace with Contract 3 address
+const preSaleContractAddress = "0xFe5993062573122d9Ff4073E83fA22fB23DDE27D";
 
 const UserDashboard1 = () => {
   const { walletAddress, setWalletAddress, setSigner, signer } =
